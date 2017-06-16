@@ -1,0 +1,47 @@
+5
+# Map: Bottleneck
+# <layout>
+#           [AA]
+#      ____/ || \____
+#     /     /  \     \
+#   [a0] [a1]  [a2] [a3]
+#     \____ \  / ____/
+#          \ || /
+#           [BB]
+#      ____/ || \____
+#     /     /  \     \
+#   [b0] [b1]  [b2] [b3]
+#     \____ \  / ____/
+#          \ || /
+#           [CC]
+# </layout>
+##start
+AA 14  3
+a0  6  6
+a1 11  6
+a2 17  6
+a3 22  6
+BB 14  9
+b0  6 12
+b1 11 12
+b2 17 12
+b3 22 12
+##end
+CC 14 15
+# links
+AA-a0
+AA-a1
+AA-a2
+AA-a3
+a0-BB
+a1-BB
+a2-BB
+a3-BB
+BB-b0
+BB-b1
+BB-b2
+BB-b3
+b0-CC
+b1-CC
+b2-CC
+b3-CC
